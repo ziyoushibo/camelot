@@ -1,0 +1,391 @@
+/*All*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+    text-align: center;
+}
+/*Navigation*/
+.haoNav{
+    display: inline-block;
+    background: linear-gradient(rgba(0, 98, 235, 0.34),rgba(0, 98, 235, 0.34)),url(../images/nav-image.jpg) center;
+    width: 100%;
+    line-height: 15px;
+    background-size: cover;
+    z-index: 50;
+}
+.haoNav a{
+    color: #FFF;
+    text-decoration: none;
+}
+.haoNav a:hover {
+    color: red;
+}
+.haoNav .haoMenu ul{
+    float: right;
+    margin: 0;
+    padding-right: 40px;
+}
+.haoNav .haoMenu ul li{
+    display: inline-block;
+    padding: 16px 32px;
+}
+.haoNav .navLogo{
+    display: inline-block;
+    height: 39px;
+    float: left;
+    margin: 5px 0 5px 48px;
+}
+
+@media (max-width:823px){
+    .navLogo{
+        display: none;
+    }
+    .haoNav ul{
+        display: block;
+    }
+    .haoNav ul li{
+        width: 100%;
+        display: block;
+        border-radius: 7px;
+        text-align: center;
+    }
+}
+
+
+/*button*/
+.btn{
+    padding: 3px 30px;
+    border: 1px solid rgba(187, 187, 187, 0.24);
+    padding: 3px 35px;
+    float: left;
+    margin-left: 10%;
+    border-radius: 3px;
+    max-width: 150px;
+}
+.btn:hover{
+    background-color: #e74649;
+    color: #FFF;
+    cursor: pointer;
+    border-color: rgba(57, 57, 57, 0.48);
+}
+.btnClick{
+    border: 2px solid #e4393c;
+    padding: 3px 35px;
+    float: left;
+    margin-left: 10%;
+    border-radius: 3px;
+    max-width: 150px;
+}
+.btnClick:hover{
+    cursor: pointer;
+}
+.btn-delivery{
+  border: 1px solid;
+  margin-top: 30px;
+}
+
+
+
+/*Search-Box*/
+.searchBox{
+    display: block;
+    background-color: #ffffff;
+    width: 1200px ;
+    height: 90px;
+}
+.searchBox .searchoxLogo{
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+.searchBox .searchoxLogo img{
+    max-height: 90px;
+    max-width: 50%;
+    margin: 16px 0 17px 60px;
+}
+.searchBox .searchEngine{
+    display: inline-block;
+    line-height: 90px;
+    width: 30%;
+    float: right;
+    background-color: #e74649;
+}
+
+/*Body*/
+#info{
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    float: left;
+    margin-left: 150px;
+    font-size: large;
+    margin-bottom: 7px;
+}
+#body{
+    width: 1100px;
+    display: inline-block;
+    height: 100%;
+}
+#body #receiverInfo{
+    border: 1px solid rgba(143, 143, 143, 0.42);
+    display: inline-block;
+    height: 100%;
+    width: 1100px;
+}
+#body #receiverInfo span{
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+#body #receiverInfo a{
+    float: right;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 2%;
+    margin-top: 1%;
+    color: rgba(30, 146, 255, 0.74);
+}
+#body #receiverInfo a:hover{
+    color: #000000;
+}
+#body #receiverInfo .selectRecl{
+    width: 900px;
+    line-height: 100%;
+    display: inline-block;
+}
+#body #receiverInfo .selectRec{
+  padding: 5px 0 5px 0;
+  width: 900px;
+  line-height: 100%;
+  display: inline-block;
+}
+#body #receiverInfo .selectRec:hover{
+    border: 1px solid rgba(142, 142, 142, 0.43);
+    border-radius: 3px;
+}
+#body #receiverInfo .selectRec span{
+    width: 550px;
+    float: left;
+    text-align: left;
+    font-weight: normal;
+    display: inline-block;
+    margin-left: 50px;
+}
+#body #payment{
+    display: inline-block;
+    height: 100%;
+    width: 1100px;
+    border: 1px solid rgba(143, 143, 143, 0.42);
+    border-bottom: 2px solid rgba(143, 143, 143, 0.42);
+}
+#body #payment span{
+    float: left;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+#body #payment .payChose{
+    width: 900px;
+    line-height: 100%;
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+#body #productList{
+    padding: 0 30px;
+    display: inline-block;
+    line-height: 100%;
+    width: 1040px;
+    border: 1px solid rgba(143, 143, 143, 0.42);
+    border-top: none;
+}
+#body #productList span{
+    float: left;
+    font-weight: bold;
+    margin-top: 1%;
+}
+#body #productList .someInfo{
+    float: right;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 2%;
+    margin-top: 1%;
+    color: rgba(30, 146, 255, 0.74);
+}#body #productList a:hover{
+     color: #000000;
+ }
+#body #spaceHolder{
+    width: 100%;
+    height: 35px;
+}
+#body #delivery{
+    display: inline-block;
+    width: 300px;
+    background-color: rgba(156, 156, 156, 0.41);
+    padding: 10px 15px;
+    text-align: left;
+    border-radius: 3px;
+    height: 100%;
+}
+#body #delivery span{
+    font-weight: bold;
+    margin-top: 1%;
+    font-size: small;
+}
+#body #delivery p{
+    font-size: small;
+    display: inline-block;
+}
+#body #list{
+    display: inline-block;
+    float:right;
+    background-color: rgba(209, 209, 209, 0.2);
+    width: 650px;
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 3px;
+    height: 100%;
+    min-height: 300px;
+    border:1px solid;
+}
+#body #list .shopInfo{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    display: inline-block;
+    text-align: left;
+    font-size: small;
+}
+#body #list .shopInfo p{
+    cursor: pointer;
+    padding: 8px 3px 8px 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+	margin-left:70px;
+    font-size: medium;
+    background-color: #e74649;
+    color: #FFFFFF;
+}
+#body #list .items{
+    width: 100%;
+    display: block;
+    font-size: small;
+    line-height: 105px;
+    padding: 1px 1px 1px 1px;
+}
+#body #list .items:hover{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 0 0 0 0;
+	background-color: rgba(237, 237, 237, 0.19);
+}
+#body #list .items .itemImage{
+    display:inline-block;
+    width: 80px;
+    height: 98px;
+    border: 1px solid;
+    border-radius: 1px;
+    padding: auto 10px;
+    float: left;
+}
+#body #list .items .itemImage img{
+  margin-top: 15px;
+    max-width: 80px;
+    max-height: 80px;
+}
+#body #list .items .itemInfo{
+    width:  340px;
+    height: 100px;
+    display:inline-block;
+    padding-left: 10px;
+}
+#body #list .items .itemPrice{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: auto 0;
+    text-align: center;
+}
+#body #list .items .itemCount{
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    padding: auto 0;
+    text-align: center;
+}
+#body #list .items .itemStorage{
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    padding: auto 0;
+    text-align: center;
+}
+
+
+
+
+/*尾部浮动显示的支付按钮*/
+#body #listInFinal{
+    float: none;
+    display: inline-block;
+		margin-top: 70px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(132, 132, 132, 0.62);
+    background-color: rgba(234, 234, 234, 0.4);
+    text-align: left;
+}
+#body #listInFinal .info{
+    width: 500px;
+    display: inline-block;
+    margin-left:80px;
+    padding: 30px auto 0 auto;
+}
+#body #listInFinal .info p{
+    margin: 0;
+}
+#body #listInFinal .info #address{
+    display: flex;
+}
+#body #listInFinal .info em{
+    color: red;
+    font-size: large;
+}
+
+#body #listInFinal .purchaseBtn{
+    display: inline;
+    border: 1px solid rgba(167, 167, 167, 0.51);
+    background-color: #e74649;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    color:#FFF;
+    height: 40px;
+    padding-top: 10px;
+    width: 100px;
+    font-size: x-large;
+    float: right;
+    cursor: pointer;
+}
+#body #listInFinal .purchaseBtn:hover{
+    color:#000;
+}
+
+
+
+
+.footer{
+	width:100%;
+	height:100px;
+	display:inline-block;
+	background-color:red;
+	margin:100px auto 0 3%;
+	box-sizing:border-box;
+	border: 10px solid black;
+}

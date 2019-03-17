@@ -1,0 +1,4 @@
+.box3{  
+    display: -webkit-flex; /* Safari ,Webkit内核的浏览器，必须加上-webkit前缀。*/  
+    display: flex;  
+  }

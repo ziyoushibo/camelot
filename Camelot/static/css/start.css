@@ -1,0 +1,39 @@
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{
+    margin: 0;
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    border: none;
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+}
+
+
+
+/*二、通配符初始化*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * 通配符的使用争议：
+ * 
+ * 一般都都不建议用通配符
+ *  1、性能问题
+ *  2、浪费问题
+ * 
+ * 若非要用通配符的话：建议
+ *  1、如果网站非常大，内容非常多，就不建议用通配符
+ *  2、如果小网站，内容不多，（比如：单页面）可以用通配符
+ */
